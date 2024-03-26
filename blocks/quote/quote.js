@@ -1,4 +1,5 @@
 import { moveInstrumentation } from '../../scripts/scripts.js';
+
 export default function decorate(block) {
     const [quoteWrapper] = block.children;
     // get the paragraph and its parent
